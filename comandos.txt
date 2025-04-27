@@ -1,0 +1,13 @@
+# Comandos utilizados
+mkdir ~/curso-git-embarcatech
+cd ~/curso-git-embarcatech
+git init
+git config user.name "Seu Nome"
+git config user.email "seuemail@example.com"
+echo "Nome: Seu Nome" > dados.txt
+echo "Matrícula: 12345678" >> dados.txt
+git add dados.txt
+git commit -m "Adiciona arquivo com nome e matrícula"
+git remote add origin https://github.com/anderson-henriqq/curso-git-embarcatech.git
+git branch -M main
+git push -u origin main
