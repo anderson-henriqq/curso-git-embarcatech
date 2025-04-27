@@ -2,8 +2,8 @@
 mkdir ~/curso-git-embarcatech
 cd ~/curso-git-embarcatech
 git init
-git config user.name "Seu Nome"
-git config user.email "seuemail@example.com"
+git config user.name "Anderson Henrique"
+git config user.email "anderson.henriq10@gmail.com"
 echo "Nome: Seu Nome" > dados.txt
 echo "Matrícula: 12345678" >> dados.txt
 git add dados.txt
